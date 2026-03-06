@@ -1,0 +1,13 @@
+[project]
+name = "bear-mcp"
+version = "0.1.0"
+description = "MCP server for Bear — read and write Bear notes from AI assistants"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.2.0",
+]
+
+[project.scripts]
+bear-mcp = "server:main"
